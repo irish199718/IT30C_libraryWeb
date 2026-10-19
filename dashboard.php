@@ -19,7 +19,7 @@ if (!isset($_SESSION["user_id"])) {
 
     <div class="dashboard-wrapper">
         <div class="dashboard-card">
-            <h1>Welcome, <?php echo htmlspecialchars($_SESSION["full_name"]); ?>! 🎉</h1>
+            <h1>Welcome, <?php echo htmlspecialchars($_SESSION["full_name"]); ?>! </h1>
             <p class="subtitle">You have successfully logged in to your student account.</p>
 
             <div class="user-info-box">
