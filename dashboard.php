@@ -25,7 +25,7 @@ if (!isset($_SESSION["user_id"])) {
             <div class="user-info-box">
                 <p><strong>User ID:</strong> <?php echo htmlspecialchars($_SESSION["user_id"]); ?></p>
                 <p><strong>Status:</strong> <span class="badge">Active</span></p>
-                <p><atrong>Email:</strong> <?php echo htmlspecialchars($_SESSION[""email]); ? ?></p>
+                
             </div>
 
             <div class="dashboard-actions">
