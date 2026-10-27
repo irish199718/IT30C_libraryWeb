@@ -32,7 +32,7 @@ if (!isset($_SESSION["user_id"])) {
                 <p><strong>Status:</strong> <span class="badge active-badge">Active</span></p>
             </div>
 
-            <!-- Optional: Show Admin specific tools if the role is admin -->
+            
             <?php if (isset($_SESSION["role"]) && $_SESSION["role"] === 'admin'): ?>
                 <div class="admin-panel-notice" style="margin-bottom: 20px; font-size: 14px; color: #a78bfa;">
                     🔒 Admin privileges unlocked.
