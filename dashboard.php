@@ -38,3 +38,11 @@ if (!isset($_SESSION["user_id"])) {
                     🔒 Admin privileges unlocked.
                 </div>
             <?php endif; ?>
+            <div class="dashboard-actions">
+                <a href="logout.php" class="btn-logout">Log Out</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
